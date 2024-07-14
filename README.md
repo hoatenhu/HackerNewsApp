@@ -12,16 +12,20 @@
     ```bash
     npm install
     ```
-
-3. Link native dependencies:
+    or
     ```bash
-    npx react-native link
+    yarn
     ```
 
 4. Run the app:
     ```bash
-    npx react-native run-android # for Android
-    npx react-native run-ios # for iOS
+    npm run android # for Android
+    npm run ios # for iOS
+    ```
+    or
+    ```bash
+    yarn android # for Android
+    yarn ios # for iOS
     ```
 
 ## Running Tests
@@ -29,5 +33,8 @@
 To run tests:
 ```bash
 npm test
-
-### Conclusion
+```
+or
+```bash
+yarn test
+```
